@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    text-align:center;
+}
+
+
+#searchbar {
+    padding: 10px 5px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#button_search{
+    padding: 10px 5px;
+    width:80px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#main_container{
+    height:auto;
+    max-width:700px;
+    margin:auto;
+    border: 0px solid gray;
+}
+
+#img_container{
+    width:200px;
+    float:left;
+}
+
+#text_container{
+    width:500px;
+    height:300px;
+    float:right;
+}
+
+#text_container p{
+    text-align: justify;
+    padding: 20px;
+}
+
+.test{
+    color:red;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>PROJECT NAME</title>
+    <meta name="viewport" content="width=device-width">
+    
+     <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <h1>Search TheMovieDB API v3</h1>
+    
+    
+    <form>
+
+	    <input id="searchbar"  type="text" value="" name="search" onkeyup='saveValue(this);' placeholder="Search movie.." autofocus> 
+	    <button id="button_search">SEARCH</button>
+
+
+        <script src="./js/value_send.js"></script>
+	   
+    </form>
+ 
+    <br>
+    <div id="output"></div>
+    <br>
+   
+    <br>
+    <div id="searchobj">Please enter a movie title  to the search form to get a result!</div>
+
+    
+    
+    <script src="./js/key.js"></script>
+    <script src="./js/api.js"></script>
+</body>
+</html>
