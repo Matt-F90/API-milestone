@@ -1,14 +1,51 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+API Milestome Project
+
+This is to be a simple search page to gain quick access to information on the MovieDB database.
+Quick, Simple and easy to use, should someone want info on a movie they can do a search by title.
+
+UX
+Prominant search bar. Auto-focused cursor (to direct attention straight to only interactive part of page)
+All info to fit on one page of a computer screen or with easy minimal scrolling on a phone or tablet.
+Color scheme to be easy on the eyes and make text stand out.
+Ultra simple and easy to read is the key.
+
+Features
+Searches will bring back the most relevant answer.
+The search result will contain the title, a movie poster, an overview of the movie and the date of release.
+
+future feature. 
+This is both a planned future feature and a result of testing; 
+While originally to keep things simple, the search only returns one result, there needs to be muliple results
+to account for movies that share a title such as reboots.
+reviews and a comments section could be on the slate for future versions.
+more comprehensive error messaging.
+
+technologies used
+bootstrap
+Moviedb API
+
+Testing
+multiple searches ran
+searches ran on devices of different sizes
+searches aiming for specific results (this revelaed the flaw that should a movie share a title you will not 
+necessarily get the right movie.)
+searches that should yeild no results.
+
+Deployment
+files have been moved from my old laptop to a new laptop during the process of creating this project.
+Pushed to github pages.
 
 
-Hi there! Welcome to AWS Cloud9!
+credits
+moviedb
+https://www.themoviedb.org/documentation/api
+https://www.youtube.com/watch?v=bpHtxx_wmqw
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+stackoverflow
+https://stackoverflow.com/questions/33820485/javascript-search-function-not-working
+https://stackoverflow.com/questions/38930144/keep-input-value-after-refresh-page
 
-Happy coding!
+Code institue
+Github API
+Consuming API's
+Data & the DOM
